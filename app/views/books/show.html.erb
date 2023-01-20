@@ -2,6 +2,15 @@
   <%= flash[:success_create] %>
 </div>
 
+<main>
+    <div class="show-body">
+        <span class="show-text"><strong>Title: </strong><%= @book.title %></span>
+        <span class="show-text"><strong>Title: </strong><%= @book.body %></span>
+    </div>
+
+    <span><% link_to "Edit", edit_book_path(@book.id) %> | <% link_to "Edit", edit_book_path(@book.id) %></span>
+</main>
+
 
 
 <p>Find me in app/views/books/show.html.erb</p>
