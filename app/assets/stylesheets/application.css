@@ -8,9 +8,10 @@
   margin: 25px 30px 20px 30px;
 }
 
-.index-header{
+.index-header, .edit-header{
   margin: 25px 30px 5px 30px;
 }
+
 
 h1{
   font-size: 26px;
@@ -48,8 +49,27 @@ td{
   margin-bottom: 10px;
 }
 
+.errors{
+  width:450px;
+  border:2px solid red;
+}
+
+.errors-header{
+  padding:4px 0 4px 15px;
+  font-size:13px;
+  background-color: #AA0000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.errors-body{
+  padding: 33px 75px;
+  list-style: square;
+  font-size:12px;
+}
+
 .form{
-  margin-top: 5px;
+  margin: 5px 0;
 }
 
 .form-item{
@@ -57,9 +77,24 @@ td{
 }
 
 
-.index-title{
+.form-title{
   font-size :13px;
 }
 
+.show-body{
+  margin:32px 30px 0 30px;
+}
 
+.show-text, .flash{
+  font-size: 13px;
+  margin-bottom:30px;
+}
+
+.flash{
+  color: green;
+}
+
+.move {
+  font-size: 13px;
+}
 
